@@ -1,6 +1,6 @@
 # Notification Helper
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Version](https://img.shields.io/badge/version-1.0.1-blue)
 ![License](https://img.shields.io/badge/license-Apache%202.0-blue)
 
 ## Introduction to Notification Helper
@@ -69,7 +69,7 @@ If you're using standard dependencies in your build.gradle file, it's pretty str
 1. Just add it to your dependencies:
 ```groovy
 dependencies {
-    implementation("com.github.berk-berber:notification-helper:1.0.0")
+    implementation("com.github.berk-berber:notification-helper:1.0.1")
 }
 ```
 That's it! Your app will be rocking the notifications in no time.
@@ -80,7 +80,7 @@ If you're using libs.versions.toml to manage your dependencies, here’s how you
 #### Step 1: Add the version to your `libs.versions.toml` file
 First, let’s add the version number of NotificationHelper to the versions section
 ```toml
-berkberberNotificationHelper = "1.0.0"
+berkberberNotificationHelper = "1.0.1"
 ```
 #### Step 2: Define the library in the libraries section
 Now, let’s make it available by adding it to the libraries section:
