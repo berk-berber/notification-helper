@@ -24,11 +24,11 @@ android {
         buildConfig = false
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "17"
     }
 }
 
@@ -42,7 +42,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.berk-berber"
             artifactId = "notification-helper"
-            version = "1.0.0"
+            version = "1.0.1"
             afterEvaluate {
                 from(components["release"])
             }
